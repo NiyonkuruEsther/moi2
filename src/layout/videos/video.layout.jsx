@@ -1,19 +1,21 @@
 import "./video.css";
 
-import { Assets } from "../../assets/assets";
-
-const { Frame2 } = Assets;
-
 function VideoLayout() {
   return (
-    <section className="video">
+    <section className=" bg-black flex flex-col gap-8 py-12 px-48 ">
       <figcaption>
-        <img src={Frame2} alt="" className="border" />
+        <div className="flex flex-col gap-2">
+          <p className="bg-white h-1 w-12"></p>
+          <p className="bg-white h-1 w-32"></p>
+          <p className="bg-white h-1 w-56"></p>
+        </div>{" "}
       </figcaption>
-      <h2 className="txt">
+      <h2 className="txt text-white">
         new <span className="color__video"> videos</span> out
       </h2>
-      <button className="btn__video">Subscribe to my Youtube Channel</button>
+      <button className="btn__video w-fit">
+        Subscribe to my Youtube Channel
+      </button>
     </section>
   );
 }
