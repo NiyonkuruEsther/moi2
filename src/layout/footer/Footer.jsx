@@ -7,6 +7,16 @@ const Footer = () => {
   return (
     <div style={backgroundImageStyle} className="py-20 ">
       <div className="max-w-4xl mx-auto bg-black bg-opacity-40 border-2 border-white px-12 pt-12 pb-24">
+        <div className="flex flex-col gap-12 pb-8">
+          <div className="flex flex-col gap-2 self-center">
+            <p className="bg-white h-1 w-12"></p>
+            <p className="bg-white h-1 w-32"></p>
+            <p className="bg-white h-1 w-56"></p>
+          </div>
+          <p className="text-white text-6xl font-bold text-center">
+            Get <span className="text-darkBrown">Back</span> To Us
+          </p>
+        </div>
         <form className="max-w-xl mx-auto flex flex-col">
           <div className="grid md:grid-cols-2 md:gap-6">
             <div className="relative z-0 w-full mb-6 group">
