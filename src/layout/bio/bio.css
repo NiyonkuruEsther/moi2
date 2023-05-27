@@ -1,0 +1,56 @@
+.biographie{
+    display: flex;
+    flex-direction: row;    
+}
+
+.photo{
+    background:url(../../assets/Albert2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50%;
+    height:70vh;
+    filter: sepia(50%);
+    -webkit-filter: sepia(70%);
+}
+
+.bio{
+    background-color:black;
+    width: 50%;
+    text-align: start;
+    padding: 5rem 0 3rem 5rem;
+}
+
+.biofont{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #952626;
+}
+
+.biofont::after{
+    content: " ";
+    position: relative;
+    background:rgba(250, 243, 243, 0.2);
+    width: 154px;
+    height: 1px;
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+.bio__des{
+    position:relative;
+    left: -15rem;
+    /* right: 20rem; */
+    top: 2rem;
+    background-color: #ffffff;
+    border-left: 1.5rem solid #952626;
+    padding: 3rem;
+    text-justify: auto;
+}
