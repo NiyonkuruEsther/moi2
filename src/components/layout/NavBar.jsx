@@ -9,10 +9,10 @@ const Header = () => {
           <img src={Logo} alt="" />
         </div>
         <ul className="flex gap-24 w-fit text-white font-semibold">
-          <Link to={"home"} className="text-white font-semibold">
+          <Link to={"/home"} className="text-white font-semibold">
             <p>Home</p>
           </Link>
-          <Link to={"about"}>
+          <Link to={"/about"}>
             <p>About me</p>
           </Link>
           <Link>

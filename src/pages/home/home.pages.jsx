@@ -1,15 +1,21 @@
-import {HomeLayout, EventLayout, BioLayout, PlaylistLayout, VideoLayout} from "../../layout/layout"
+import {
+  HomeLayout,
+  EventLayout,
+  BioLayout,
+  PlaylistLayout,
+  VideoLayout,
+} from "../../layout/layout";
 
 function Home() {
   return (
-      <div>
-        <HomeLayout />
-        <EventLayout />
+    <div className="max-w-[1380px] mx-auto">
+      <HomeLayout />
+      <EventLayout />
       <BioLayout />
       <PlaylistLayout />
-      <VideoLayout/>
-      </div>
-  )
+      <VideoLayout />
+    </div>
+  );
 }
 
 export default Home;
