@@ -45,7 +45,7 @@ function homeLayout() {
                 </button>
               </div>
             </div>
-          </div>{" "}
+          </div>
         </div>
       </div>
       <div className="absolute inset-0 -z-10 w-full top-0 grid grid-cols-9 grid-rows-1 h-screen">
