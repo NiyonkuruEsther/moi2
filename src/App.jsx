@@ -8,7 +8,7 @@ function App() {
     createRoutesFromElements(
       <Route>
         <Route path="/about" element={<About />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Route>
     )
   );
