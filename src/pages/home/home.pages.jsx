@@ -4,6 +4,7 @@ import {
   BioLayout,
   PlaylistLayout,
   VideoLayout,
+  Footer,
 } from "../../layout/layout";
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <BioLayout />
       <PlaylistLayout />
       <VideoLayout />
+      <Footer />
     </div>
   );
 }
