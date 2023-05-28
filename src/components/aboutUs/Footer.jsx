@@ -6,7 +6,7 @@ import LinkedIn from "../../assets/linked copy.svg";
 const Footer = () => {
   return (
     <div className="flex bg-black justify-between py-4 text-white px-[281px] items-center">
-      <p className="">Moi albert all right reserved</p>
+      <p className="">Moi Albert all right reserved</p>
       <div className="text-black flex gap-8">
         <img src={Facebook} alt="" className="w-8 h-8" />
         <img src={Instagram} alt="" className="w-8 h-8" />
